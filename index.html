@@ -3,27 +3,49 @@
     <head>
         <meta charset="utf-8">
         <title>Portifólio Web Luan Victor</title>
+        <style>
+         .titles{
+             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+             color:#07BEB8
+         }
+         .bodies{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+         .link-indice{color:white; 
+            text-decoration:none;
+            background-color: #68D8D6;
+            padding: 5px 10px;
+            line-height: 40px;
+            border-radius: 30px 30px 30px 30px;   
+        
+        }
+        .image{border-radius: 10%;
+        width: 250px;
+        }
+        </style>
     </head>
     <body>
-        <h1>Luan Victor de Araujo Silva</h1>
-        <h2>Índice</h2>
+        <h1 class="titles">Luan Victor de Araujo Silva</h1>
+        <h2 class="titles">Índice</h2>
+        <hr>
         <ul>
-        <p><a href="#Habilidade"><em>Habilidades</em></a></p>
-        <p><a href="#Hobbie"><em>Hobbie</em></a></p>
+        <li class="bodies"><a href="#Habilidade" class="link-indice"><em>Habilidades</em></a></li>
+        <li class="bodies"><a href="#Hobbie" class="link-indice"><em>Hobbie</em></a></li>
         </ul>
-        <img src="Foto_Portifolio.jpeg" alt="Foto com minha namorada" width="300px">
-        <p>Olá,prazer meu nome é Luan, sou aluno na turma 22 da Trybe e eu nasci e moro em <strong>Sobral</strong> no <strong>Ceará</strong></p>
-        <h2 id="Habilidade">Habilidades</h2>
-        <p>Essas são as habilidades que eu mais gosto em mim</p>
+        <hr>
+        <img src="Foto_Portifolio.jpeg" alt="Foto com minha namorada" class="image" >
+        <p class="bodies">Olá,prazer meu nome é Luan, sou aluno na turma 22 da Trybe e eu nasci e moro em <strong>Sobral</strong> no <strong>Ceará</strong></p>
+        <hr>
+        <h2 id="Habilidade" class="titles">Habilidades</h2>
+        <p class="bodies">Essas são as habilidades que eu mais gosto em mim</p>
         <ul>
-            <li>Rápido Aprendizado</li>
-            <li>Boa Oratória</li>
-            <li><strong>Bom ouvinte</strong></li>
-            <li>Digitalmente Organizado</li>
+            <li class="bodies">Rápido Aprendizado</li>
+            <li class="bodies">Boa Oratória</li>
+            <li class="bodies"><strong>Bom ouvinte</strong></li>
+            <li class="bodies">Digitalmente Organizado</li>
 
         </ul>
-        <h2 id="Hobbie">Hobbie</h2>
-        <p>Gosto de Astronomia, então um dos meus blogs preferidos é o <a href="https://spacetoday.com.br/" target="_blank">Space Today</a></p>
+        <hr>
+        <h2 id="Hobbie" class="titles">Hobbie</h2>
+        <p>Gosto de Astronomia, então um dos meus blogs preferidos é o <a href="https://spacetoday.com.br/" target="_blank" >Space Today</a></p>
 
     </body>
 
