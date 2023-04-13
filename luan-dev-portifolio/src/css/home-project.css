@@ -1,0 +1,50 @@
+.projects {
+  height: 550px;
+}
+
+@font-face {
+  font-family: tiltneon;
+  src: url('../fonts/tiltneon.ttf');
+}
+
+.project-container h4 {
+  color: black;
+  font-family: tiltneon;
+  font-size: 30px;
+}
+
+.projects h2 {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-family: tiltneon;
+}
+
+.projects-carts {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.project-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 400px;
+  
+}
+
+.image-project-mobile {
+  width: 70%;
+}
+
+.image-project {
+  width: 100%;
+}

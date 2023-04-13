@@ -4,6 +4,10 @@
   border: 0;
 }
 
+@font-face {
+  font-family: tiltneon;
+  src: url('../fonts/tiltneon.ttf');
+}
 
 .logoImage {
   height: 60px;
@@ -20,7 +24,8 @@
 
 .header-navegation a {
   color: white;
-  font-family: sans-serif;
+  font-family: tiltneon;
+  font-size: 17px;
   font-weight: 800;
   transition: all 0.4s ease 0s;
   padding: 2px;
