@@ -17,9 +17,9 @@ function Header () {
         <a>Sobre mim</a>
       </div>
       <div className="header-links">
-        <a><img className="social-links" src={githubIcon} alt="github link" /></a>
+        <a href="https://github.com/LuanVictr"><img className="social-links" src={githubIcon} alt="github link" /></a>
         <a href="https://www.linkedin.com/in/luanvictor-/"><img className="social-links" src={linkedinIcon} alt="LinkedIn link" /></a>
-        <a href="https://github.com/LuanVictr"><img className="social-links" id="gmail-icon" src={gmailIcon} alt="Gmail link" /></a>
+        <a><img className="social-links" id="gmail-icon" src={gmailIcon} alt="Gmail link" /></a>
       </div>
     </header>
   );
